@@ -1,5 +1,7 @@
 {
   "name": "ionictp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
