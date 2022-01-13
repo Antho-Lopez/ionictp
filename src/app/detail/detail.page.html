@@ -6,58 +6,26 @@
 <div *ngIf="data">
   <div class="ion-padding">
     <img src="https://via.placeholder.com/300.png/09f/fff">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac eros est. Cras iaculis pulvinar arcu non vehicula. Fusce at quam a eros malesuada condimentum. Aliquam tincidunt tincidunt vehicula.
+    <h1>Titre : {{data.title}}</h1>
+    <p>Description : {{data.desc}}</p>
   </div>
 
   <ion-list>
     <ion-list-header>
       <ion-label>
-        Data
+        Commentaires
       </ion-label>
     </ion-list-header>
     <ion-item>
       <ion-avatar slot="start">
-        <img src="./avatar.svg">
+        <img src="https://via.placeholder.com/100.png/09f/fff">
       </ion-avatar>
       <ion-label>
         <h3>
-          {{ data.heading }}
+          {{ data.user }}
         </h3>
         <p>
-          {{ data.para1 }}
-        </p>
-        <p>
-          {{ data.para2 }}
-        </p>
-      </ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-thumbnail slot="start">
-        <img src="./thumbnail.svg">
-      </ion-thumbnail>
-      <ion-label>
-        <h3>
-          {{ data.heading }}
-        </h3>
-        <p>
-          {{ data.para1 }}
-        </p>
-        <p>
-          {{ data.para2 }}
-        </p>
-      </ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-icon name="call" slot="start"></ion-icon>
-      <ion-label>
-        <h3>
-          {{ data.heading }}
-        </h3>
-        <p>
-          {{ data.para1 }}
-        </p>
-        <p>
-          {{ data.para2 }}
+          {{ data.comment }}
         </p>
       </ion-label>
     </ion-item>
