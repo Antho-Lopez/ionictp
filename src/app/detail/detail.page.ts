@@ -7,7 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailPage implements OnInit {
 
+  data: any;
+
   constructor() { }
+  ionViewWillEnter() {
+    setTimeout(() => {
+      this.data = {
+        heading: 'Normal text',
+        para1: 'Lorem ipsum dolor sit amet, consectetur',
+        para2: 'adipiscing elit.'
+      };
+    }, 1000);
+  }
 
   ngOnInit() {
   }

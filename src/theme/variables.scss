@@ -3,6 +3,8 @@
 
 /** Ionic CSS Variables **/
 :root {
+  --ion-font-family: 'Outfit', sans-serif;
+  --ion-font-family: 'Teko', sans-serif;
   /** primary **/
   --ion-color-primary: #ffd517;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -83,6 +85,9 @@
    */
 
   body {
+    --ion-font-family: 'Outfit', sans-serif;
+    --ion-font-family: 'Teko', sans-serif;
+    
     --ion-color-primary: #ffd517;
     --ion-color-primary-rgb: 56, 128, 255;
     --ion-color-primary-contrast: #ffffff;
